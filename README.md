@@ -52,6 +52,10 @@ Open the browser: [http://localhost:3000](http://localhost:3000).
 
 This sample demonstrate how to integrate with Meteor and don't have all Viewer & Model Derivative API features. Please use only to understand how Viewer can be integrated with Meteor. For more complete information, refer to other samples or the [documentation](http://developer.autodesk.com).
 
+### Thumbnail
+
+![thumbnail](/BasicViewerUsingMeteor.png)
+
 # License
 
 This sample is licensed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
