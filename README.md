@@ -56,7 +56,7 @@ This sample demonstrate how to integrate with Meteor and don't have all Viewer &
 
 ### Thumbnail
 
-![thumbnail](/BasicViewerUsingMeteor.png)
+![thumbnail](/thumbnail.png)
 
 # License
 
