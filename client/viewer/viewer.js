@@ -43,13 +43,8 @@ var initViewer = function (token) {
 
         Autodesk.Viewing.Document.load(documentId,
             function (document) {
-                var rootItem = document.getRootItem();
-                var geometryItems = Autodesk.Viewing.Document.getSubItemsWithProperties(
-                    rootItem,
-                    { 'type': 'geometry', 'role': role },
-                    true);
 
-                viewer.load(document.getViewablePath(geometryItems[0]));
+                viewer.loadDocumentNode(document, document.getRoot().getDefaultGeometry());
             },
 
             // onErrorCallback
@@ -102,6 +97,5 @@ var initViewer = function (token) {
 
 
 }
-
 
 
